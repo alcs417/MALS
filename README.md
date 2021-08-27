@@ -4,7 +4,7 @@ Cancer Subtype Identification based on Multi-view Subspace Clustering with Adapt
 
 **Method Description**
 
-MALS is a novel similarity-based multi-omics data integration framework to identify cancer subtypes. It integrates multi-view subspace clustering and adaptive local structure learning into a unified framework. Specifically, the model learns a new representation for each omics in the latent subspace and  obtains a consensus similarity matrix by adaptively assigning different view weights during the learning process. Therefore, the latent representations and the consensus similarity matrix could be enhanced with each other in an alternative manner. We use Augmented Lagrange Multiplier with Alternating Direction Minimization method to efficiently optimize the proposed objective.
+MALS is a novel similarity-based multi-omics data integration framework to identify cancer subtypes. It integrates multi-view subspace clustering and adaptive local structure learning into a unified framework. Specifically, the model learns a new representation for each omics in the latent subspace and obtains a consensus similarity matrix by adaptively assigning different view weights during the learning process. Therefore, the latent representations and the consensus similarity matrix could be enhanced with each other in an alternative manner. We use Augmented Lagrange Multiplier with Alternating Direction Minimization method to efficiently optimize the proposed objective.
 
 **Software Requirements**
 
@@ -20,7 +20,7 @@ All the cancer datasets used in the code can be directly downloaded at http://ac
 
 **Estimation of the Number of Clusters**
 
-In our work, we used rotation cost to estimate the number of clusters given a similarity matrix. We also provided the estimation result by another method, i.e. eigen gap, although we only reported the clustering results according to the rotation cost in our manuscript. Users can choose whichever estimation method they prefer. For more details, please refer to 'Similarity network fusion for aggregating data types on a genomic scale'.
+In our work, we used rotation cost to estimate the number of clusters given a similarity matrix. We also provided the estimation result by another method, i.e. eigen gap, although we only reported the clustering results obtained by the rotation cost in our manuscript. Users can choose whichever estimation method they prefer. For more details, please refer to 'Similarity network fusion for aggregating data types on a genomic scale'.
 
 **Parameters**
 
