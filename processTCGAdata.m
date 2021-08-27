@@ -3,8 +3,8 @@ clear;
 clc;
 addpath(genpath('./'));
 
-dataDir = 'data';
-outDir = 'output';
+dataDir = './data';
+outDir = './output';
 
 lambR = 1;
 lambA = 1;
